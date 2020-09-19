@@ -19,7 +19,7 @@ def insertMysql(filename):
     if "podserver_ip" in filename:
         i = 0
         # 打开数据库连接
-        db = pymysql.connect("127.0.0.1", 'root', 'root', 'reptile', 3306)
+        db = pymysql.connect("114.116.207.170", 'mysql', 'mysql@123', 3316)
 
         # 使用 cursor() 方法创建一个游标对象 cursor
         cursor = db.cursor()
@@ -59,7 +59,7 @@ def insertMysql(filename):
         time_string=str(time.strftime("%Y%m%d", time.localtime())) + ".csv"
         i = 0
         # 打开数据库连接
-        db = pymysql.connect("127.0.0.1", 'root', 'root', 'reptile', 3306)
+        db = pymysql.connect("114.116.207.170", 'mysql', 'mysql@123', 3316)
 
         # 使用 cursor() 方法创建一个游标对象 cursor
         cursor = db.cursor()
