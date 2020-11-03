@@ -9,12 +9,12 @@ namespace Com.Bigdata.Dis.Sdk.DISCommon.Auth
             SignerConfig signerConfig = null;
             if (regionName != null)
             {
-				//  user_name   = "hwstaff_pub_ecssl"
-				//  password    = "4q.9p54q"
-				//  domain_name = "http://121.36.17.86/kuake_learning/"
+				//  user_name   = "hwcloud_staff_ecs"
+				//  password    = "changeme123@ecs"
+				//  domain_name = "http://117.78.3.98/am/ui/"
 				//  user_name   = "root"
 				//  password    = "123456"
-				//  domain_name = "http://114.116.207.170:8090/jenkins/"
+				//  domain_name = "http://117.78.3.98:8090/jenkins/"
                 signerConfig = this.serviceRegionSigners[key];
                 if (signerConfig != null)
                 {
